@@ -1,10 +1,16 @@
 import React from 'react'
 
 
+// import the router
+import Router from './router/Router'
+
+
 const App = () => {
   return (
     <div>
-        <h4>App</h4>
+
+        <Router />        
+
     </div>
   );
 }

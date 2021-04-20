@@ -1,0 +1,10 @@
+.upload-section {
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+
+.jumbotron {
+    width: 50%;
+}

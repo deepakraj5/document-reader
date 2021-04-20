@@ -15,6 +15,11 @@ app.use(express.json())
 app.use(cors())
 
 
+// import the router file
+const uploadRouter = require('./routes/upload')
+app.use(uploadRouter)
+
+
 
 // init the port
 const PORT = process.env.PORT
